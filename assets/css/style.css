@@ -70,3 +70,30 @@ h3 {
     transition: .5s;
     transform: scale(1.03);
 }
+
+footer {
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    margin: 30px 10px 15px 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+i:hover {
+    color: #97d7eb;
+    transition: .5s;
+    transform: scale(1.03);
+}
